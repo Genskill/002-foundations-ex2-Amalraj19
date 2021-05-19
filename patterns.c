@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<cs50.c>
+#include<cs50.h>
 int main(void){
     int i, j, n, m;
     n = get_int("Enter the number (1 or 2): ");
