@@ -23,10 +23,10 @@ e = b;
 g = (d*d)+(e*e);
 h = (f*f);
 if(g==h){
-printf("\n%f %f %f are the sides of a right triangle \n", a, b, c);
+printf("Yes");
 }
 else{
-printf("%f %f %f are not the sides of a right triangle", a, b, c);
+printf("No");
 }
 }
 
