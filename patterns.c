@@ -26,7 +26,7 @@ int main(void){
 
             for(j=1; j<=i; j++)
 
-            { if(j==m)
+            { if(j==i)
                 break;
             printf(" ");
 
