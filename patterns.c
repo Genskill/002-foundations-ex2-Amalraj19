@@ -14,7 +14,7 @@ int main(void){
 
         {
 
-            for(i=1; i<=m; ++i)
+            for(i=1; i<=m; i++)
 
             {
                 {
