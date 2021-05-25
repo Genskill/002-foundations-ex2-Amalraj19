@@ -26,11 +26,11 @@ int main(void){
 
             for(j=1; j<=i; j++)
 
-            { 
+            { if(j==4)
+                break;
             printf(" ");
 
-            }if(j==4)
-                break;
+            }
                 printf("\n");
             }
 
