@@ -19,14 +19,13 @@ int main(void){
             {
 
             for(j=m; j>=i; j--)
-                if(j==4)
-                break;
-
             { 
             printf("#");
             }
 
             for(j=1; j<=i; j++)
+                if(j==4)
+                break;
 
             { 
             printf(" ");
