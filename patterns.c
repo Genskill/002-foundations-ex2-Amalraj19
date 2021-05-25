@@ -30,8 +30,9 @@ int main(void){
             printf(" ");
 
             }if(j==i)
-                break;
+                break;{
                 printf("\n");
+                }
 
             }
 
