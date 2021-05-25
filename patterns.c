@@ -14,19 +14,27 @@ int main(void){
 
         {
 
-            for(i=1; i<=m; ++i)
+            for(i=1; i<=m; i++)
 
             {
 
-                printf("\n");
+            for(j=m; j>=i; j--)
 
-                for(j=m; j>i; --j)
+            {
 
-                {
+            printf("#");
 
-                    printf("#");
+            }
 
-                }
+            for(j=1; j<=i; j++)
+
+            {
+
+            printf(" ");
+
+            }
+
+            printf("\n");
 
             }
 
@@ -61,5 +69,4 @@ else
     }
 
 }
-
 }
