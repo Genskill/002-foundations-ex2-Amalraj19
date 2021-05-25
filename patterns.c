@@ -30,10 +30,8 @@ int main(void){
             printf(" ");
 
             }if(j==5)
-                break;{
+                break;
                 printf("\n");
-                }
-
             }
 
         }
