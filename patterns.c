@@ -14,9 +14,10 @@ int main(void){
 
         {
 
-            for(i=2; i<=m; ++i)
+            for(i=1; i<=m; ++i)
 
             {
+                {
 
                 printf("\n");
 
@@ -25,6 +26,7 @@ int main(void){
                 {
 
                     printf("#");
+                }
 
                 }
 
