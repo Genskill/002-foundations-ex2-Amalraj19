@@ -12,7 +12,7 @@ int main(void){
 
         if(n==1)
 
-        {
+        { printf("\n");
 
             for(i=1; i<=m; i++)
 
@@ -23,7 +23,8 @@ int main(void){
             {
 
             printf("#");
-
+                if(j==1)
+                    break;
             }
 
             for(j=1; j<=i; j++)
