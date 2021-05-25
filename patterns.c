@@ -14,8 +14,6 @@ int main(void){
 
         {
 
-        printf("\n");
-
             for(i=1; i<=m; i++)
 
             {
