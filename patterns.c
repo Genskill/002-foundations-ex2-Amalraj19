@@ -29,7 +29,7 @@ int main(void){
             { 
             printf(" ");
 
-            }if(j==4)
+            }if(j==5)
                 break;{
                 printf("\n");
                 }
