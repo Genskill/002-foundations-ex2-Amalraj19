@@ -26,14 +26,12 @@ int main(void){
 
             for(j=1; j<=i; j++)
 
-            { if(j==i)
-                break;{
+            { 
             printf(" ");
 
-            }
-
-            printf("\n");
-            }
+            }if(j==i)
+                break;
+                printf("\n");
 
             }
 
