@@ -6,9 +6,9 @@ int main(void){
     m = get_int("Number of rows: ");
         if(n==1)
         {
-            for(i=1; i<=5; i++)
+            for(i=1; i<=4; i++)
             {
-            for(j=5; j>=i; j--)
+            for(j=4; j>=i; j--)
             {
             printf("#");
             }
