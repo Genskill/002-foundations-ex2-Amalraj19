@@ -20,11 +20,10 @@ int main(void){
 
             for(j=m; j>=i; j--)
 
-            {
+            { if(j==1)
+                    break;
 
             printf("#");
-                if(j==1)
-                    break;
             }
 
             for(j=1; j<=i; j++)
