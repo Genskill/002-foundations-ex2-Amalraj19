@@ -13,6 +13,7 @@ int main(void){
         if(n==1)
 
         {
+            printf("\n");
 
             for(i=1; i<=m; i++)
 
