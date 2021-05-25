@@ -13,29 +13,20 @@ int main(void){
         if(n==1)
 
         {
-            printf("\n");
 
-            for(i=1; i<=m; i++)
-
-            {
-
-            for(j=m; j>=i; j--)
+            for(i=1; i<m; ++i)
 
             {
 
-            printf("#");
+                printf("\n");
 
-            }
+                for(j=m; j>=i; --j)
 
-            for(j=1; j<=i; j++)
+                {
 
-            {
+                    printf("#");
 
-            printf(" ");
-
-            }
-
-            printf("\n");
+                }
 
             }
 
@@ -70,4 +61,5 @@ else
     }
 
 }
+
 }
