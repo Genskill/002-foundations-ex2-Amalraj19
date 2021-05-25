@@ -14,22 +14,29 @@ int main(void){
 
         {
 
+        printf("\n");
+
             for(i=1; i<=m; i++)
 
             {
-                {
 
-                printf("\n");
-                if(i==1);
-                    break;
-                for(j=m; j>=i; --j)
+            for(j=m; j>=i; j--)
 
-                {
+            {
 
-                    printf("#");
-                }
+            printf("#");
 
-                }
+            }
+
+            for(j=1; j<=i; j++)
+
+            {
+
+            printf(" ");
+
+            }
+
+            printf("\n");
 
             }
 
