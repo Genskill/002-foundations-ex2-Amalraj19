@@ -2,8 +2,8 @@
 #include <cs50.h>
 int main(void) {
     int n, m, i, j;
-	n = get_int("Enter type of pattern (1 or 2)");
-	m = get_int("Number of rows);
+	n = get_int("Enter type of pattern (1 or 2) ");
+	m = get_int("Number of rows");
 	if(n == 1) 
 	{
 		for(i=m; i>0; i--)
