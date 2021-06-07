@@ -12,31 +12,26 @@ int main(void){
 
         if(n==1)
 
-        { printf("\n");
+        {
 
-            for(i=1; i<=m; i++)
+            for(i=m; i>0; i--)
 
             {
 
-            for(j=m; j>=i; j--)
-            { 
-            printf("#");
-            }
+                for(j=0; j<i; j++)
 
-            for(j=1; j<=i; j++)
-                if(j==4)
-                break;
+                {
 
-            { 
-            printf(" ");
+                    printf("#");
 
-            }
+                }
                 printf("\n");
+
             }
 
         }
 
-else
+else if(n==2)
 
 {
 
