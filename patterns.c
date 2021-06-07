@@ -4,7 +4,7 @@
 
 int main(void){
 
-int i, j, n, m;
+int n, m, i, j;
 
 n = get_int("Enter the number (1 or 2): ");
 
@@ -20,31 +20,23 @@ printf("#");
 printf("\n");
 }
 }
-
-else
-
+else if(n==2)
 {
 for(i=1; i<=m; i++)
 {
-for(j=m; j>=i; j--)
-
+for(j=i; j>=m; j++)
 {
-
 printf(" ");
-
 }
-
 for(j=1; j<=i; j++)
-
 {
-
 printf("#");
-
 }
 printf("\n");
-
 }
-
 }
-
+else
+{
+  printf("Invalid Input");
+}
 }
